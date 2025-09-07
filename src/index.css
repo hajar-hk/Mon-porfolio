@@ -1,13 +1,24 @@
-body {
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: linear-gradient(180deg, #1A0D2D 0%, #0D0A1C 100%); /* Le dégradé directement ici */
+  background-attachment: fixed; /* Pour que le dégradé reste fixe même en scrollant */
+  font-family: 'Inter', sans-serif; /* Vous pouvez installer Google Fonts pour Inter */
+  color: white; /* Couleur de texte par défaut */
 }
+
+
+
+/* Si vous voulez installer Google Fonts pour 'Inter':
+   Ajoutez ceci dans le <head> de votre public/index.html
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+*/
