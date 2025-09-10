@@ -13,6 +13,7 @@ import {
   FaApple,
 } from "react-icons/fa";
 import {
+  SiFigma,
   SiNextdotjs,
   SiTypescript,
   SiJavascript,
@@ -225,6 +226,7 @@ const SkillsSection = () => {
                     icon: <SiIntellijidea className="mr-2" />,
                   },
                   { name: "Canva", icon: <SiCanva className="mr-2" /> },
+                  { name: "Figma", icon: <SiFigma className="mr-2" /> },
                   { name: "Eclipse", icon: <SiEclipseide className="mr-2" /> },
                   {
                     name: "Android Studio",

@@ -139,8 +139,6 @@ const AboutSection = () => {
                   },
                   { icon: <FaPalette size={20} />, text: "UX/UI Design" },
                   { icon: <FaCodeBranch size={20} />, text: "Open Source" },
-                  { icon: <FaShieldAlt size={20} />, text: "Cybersécurité" },
-                  { icon: <FaServer size={20} />, text: "DevOps" },
                   { icon: <FaMobile size={20} />, text: "Mobile Development" },
                 ].map((interest, index) => (
                   <div
@@ -164,19 +162,22 @@ const AboutSection = () => {
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">•</span>
                     <span className="text-gray-300">
-                      Décrocher un stage en entreprise
+                      Décrocher un stage de fin d’études (PFE) ou une alternance
+                      afin de mettre en pratique mes compétences.{" "}
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">•</span>
                     <span className="text-gray-300">
-                      Contribuer à des projets open source
+                      Contribuer à des projets innovants et collaboratifs (open
+                      source ou en entreprise).{" "}
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">•</span>
                     <span className="text-gray-300">
-                      Maîtriser le développement
+                      Renforcer mon expertise en développement full stack et
+                      acquérir de nouvelles compétences techniques.{" "}
                     </span>
                   </li>
                 </ul>

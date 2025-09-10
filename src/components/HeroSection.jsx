@@ -25,7 +25,7 @@ const HeroSection = () => {
         />
         {/* Étiquette de disponibilité - position améliorée */}
         <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap">
-          Disponible pour un stage (PFE)
+          Disponible pour un stage (PFE)/ Alternance
         </span>
       </div>
       {/* Titre */}

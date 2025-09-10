@@ -74,25 +74,27 @@ const ContactSection = () => {
   };
 
   // Fonction pour télécharger le CV
-  const downloadCV = (language) => {
+  const downloadCV = (language, type) => {
     let cvPath, cvName;
 
-    if (language === "french") {
-      cvPath = "/cv/CV-Kassmi-Hajar-FR.pdf";
-      cvName = "CV-Kassmi-Hajar-Francais.pdf";
-    } else {
-      cvPath = "/cv/CV-Kassmi-Hajar-EN.pdf";
-      cvName = "CV-Kassmi-Hajar-English.pdf";
+    if (language === "french" && type === "stage") {
+      cvPath = "/cv/Mon-CV.pdf";
+      cvName = "CV-Kassmi-Hajar-Francais-Stage.pdf";
+    } else if (language === "english" && type === "stage") {
+      cvPath = "/cv/My-CV.pdf";
+      cvName = "CV-Kassmi-Hajar-English-Stage.pdf";
+    } else if (language === "french" && type === "job") {
+      cvPath = "/cv/CV-Françai.pdf";
+      cvName = "CV-Kassmi-Hajar-Francais-Job.pdf";
+    } else if (language === "english" && type === "job") {
+      cvPath = "/cv/CV-Anglais.pdf";
+      cvName = "CV-Kassmi-Hajar-English-Job.pdf";
     }
 
     const link = document.createElement("a");
     link.href = cvPath;
     link.download = cvName;
-    document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
-
-    setShowLanguageOptions(false);
   };
 
   return (
@@ -176,9 +178,10 @@ const ContactSection = () => {
                 Disponible pour de nouvelles opportunités
               </p>
               <p className="text-purple-300 text-sm mt-1">
-                je suis à la recherche d'un stage de fin d'études (PFE) afin de
-                mettre en pratique mes compétences, relever de nouveaux défis
-                techniques et contribuer activement à des projets innovants.
+                Je suis à la recherche d’un stage de fin d’études (PFE) ou d’une
+                alternance, afin de mettre en pratique mes compétences, relever
+                de nouveaux défis techniques et contribuer activement à des
+                projets innovants.
               </p>
             </div>
 
@@ -194,20 +197,36 @@ const ContactSection = () => {
               </button>
 
               {showLanguageOptions && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-lg z-10">
+                <div className="absolute top-full left-0 mt-2 w-64 bg-gray-800 border border-gray-700 rounded-lg shadow-lg z-10">
                   <button
-                    onClick={() => downloadCV("french")}
+                    onClick={() => downloadCV("french", "stage")}
                     className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center"
                   >
                     <span className="mr-2">🇫🇷</span>
-                    CV Français
+                    CV Français – Stage PFE
                   </button>
                   <button
-                    onClick={() => downloadCV("english")}
+                    onClick={() => downloadCV("english", "stage")}
                     className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center border-t border-gray-700"
                   >
                     <span className="mr-2">🇬🇧</span>
-                    CV English
+                    CV English – End-of-studies Internship (PFE)
+                  </button>
+
+                  <button
+                    onClick={() => downloadCV("french", "job")}
+                    className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center border-t border-gray-700"
+                  >
+                    <span className="mr-2">🇫🇷</span>
+                    CV Français – Premier emploi
+                  </button>
+
+                  <button
+                    onClick={() => downloadCV("english", "job")}
+                    className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center border-t border-gray-700"
+                  >
+                    <span className="mr-2">🇬🇧</span>
+                    CV English – First Job
                   </button>
                 </div>
               )}
