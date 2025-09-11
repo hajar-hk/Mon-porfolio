@@ -127,14 +127,6 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <FaPhone className="text-purple-500 mr-3" />
-                  <div>
-                    <p className="text-gray-400">Téléphone</p>
-                    <p className="text-gray-300">+212 618-028581</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
                   <FaMapMarkerAlt className="text-purple-500 mr-3" />
                   <div>
                     <p className="text-gray-400">Localisation</p>
