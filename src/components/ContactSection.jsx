@@ -204,22 +204,6 @@ const ContactSection = () => {
                     <span className="mr-2">🇬🇧</span>
                     CV English – End-of-studies Internship (PFE)
                   </button>
-
-                  <button
-                    onClick={() => downloadCV("french", "job")}
-                    className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center border-t border-gray-700"
-                  >
-                    <span className="mr-2">🇫🇷</span>
-                    CV Français – Premier emploi
-                  </button>
-
-                  <button
-                    onClick={() => downloadCV("english", "job")}
-                    className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center border-t border-gray-700"
-                  >
-                    <span className="mr-2">🇬🇧</span>
-                    CV English – First Job
-                  </button>
                 </div>
               )}
             </div>

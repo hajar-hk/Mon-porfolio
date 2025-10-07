@@ -8,6 +8,7 @@ import {
   FaRobot,
   FaPalette,
   FaCodeBranch,
+  FaDocker,
   FaShieldAlt,
   FaServer,
   FaMobile,
@@ -140,6 +141,10 @@ const AboutSection = () => {
                   { icon: <FaPalette size={20} />, text: "UX/UI Design" },
                   { icon: <FaCodeBranch size={20} />, text: "Open Source" },
                   { icon: <FaMobile size={20} />, text: "Mobile Development" },
+                  {
+                    icon: <FaDocker size={20} />,
+                    text: "DevOps",
+                  },
                 ].map((interest, index) => (
                   <div
                     key={index}
