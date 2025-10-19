@@ -78,10 +78,10 @@ const ContactSection = () => {
     let cvPath, cvName;
 
     if (language === "french" && type === "stage") {
-      cvPath = "/cv/Mon-CV.pdf";
+      cvPath = "/cv/MON-CV.pdf";
       cvName = "CV-Kassmi-Hajar-Francais-Stage.pdf";
     } else if (language === "english" && type === "stage") {
-      cvPath = "/cv/My-CV.pdf";
+      cvPath = "/cv/MY-CV.pdf";
       cvName = "CV-Kassmi-Hajar-English-Stage.pdf";
     } else if (language === "french" && type === "job") {
       cvPath = "/cv/CV-Françai.pdf";

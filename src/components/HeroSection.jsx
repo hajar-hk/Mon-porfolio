@@ -19,7 +19,7 @@ const HeroSection = () => {
       {/* Photo de profil */}
       <div className="relative mb-8">
         <img
-          src="./images/imageProfil.jpg"
+          src="./images/imageProfil.jpeg"
           alt="Photo de profil"
           className="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover border-4 border-purple-600"
         />
@@ -39,16 +39,21 @@ const HeroSection = () => {
       </p>
       {/* Technologies */}
       <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-10 md:mb-12">
-        {["React", "javaScript", "Node.js", "Laravel", "Java", "MySql"].map(
-          (tech) => (
-            <span
-              key={tech}
-              className="bg-gray-800 text-purple-400 px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm"
-            >
-              {tech}
-            </span>
-          )
-        )}
+        {[
+          "React",
+          "javaScript",
+          "Node.js",
+          "Laravel",
+          "Express.js",
+          "MySql",
+        ].map((tech) => (
+          <span
+            key={tech}
+            className="bg-gray-800 text-purple-400 px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm"
+          >
+            {tech}
+          </span>
+        ))}
       </div>
       {/* Boutons d'action - MODIFIÉS ICI */}
       <div className="flex flex-col md:flex-row gap-4 mb-12 justify-center w-full">

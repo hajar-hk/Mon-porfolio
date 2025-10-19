@@ -22,6 +22,7 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiPostgresql,
+  SiOracle,
   SiPython,
   SiExpress,
   SiDocker,
@@ -82,7 +83,7 @@ const SkillsSection = () => {
                   },
                   {
                     name: "HTML/CSS",
-                    percentage: 95,
+                    percentage: 90,
                     icon: (
                       <>
                         <SiHtml5 className="mr-2" />
@@ -124,13 +125,13 @@ const SkillsSection = () => {
                 {[
                   {
                     name: "MySql",
-                    percentage: 80,
+                    percentage: 85,
                     icon: <FaDatabase className="mr-2" />,
                   },
                   {
-                    name: "PostgreSQL",
-                    percentage: 70,
-                    icon: <SiPostgresql className="mr-2" />,
+                    name: "Oracle",
+                    percentage: 55,
+                    icon: <SiOracle className="mr-2" />,
                   },
                 ].map((skill, index) => (
                   <div key={index}>

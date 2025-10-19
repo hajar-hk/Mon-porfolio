@@ -12,6 +12,10 @@ import {
   FaShieldAlt,
   FaServer,
   FaMobile,
+  FaCloud,
+  FaDatabase,
+  FaCode,
+  FaRocket,
 } from "react-icons/fa";
 
 const AboutSection = () => {
@@ -110,9 +114,59 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
+
+            {/* NOUVELLE SECTION : Formations en Cours */}
+            <div className="flex">
+              <div className="mr-4 mt-1 text-purple-500">
+                <FaRocket size={24} />
+              </div>
+              <div className="w-full">
+                <h3 className="text-xl font-semibold mb-4">
+                  Formations en Cours
+                </h3>
+
+                <div className="space-y-4">
+                  {/* Formation IA */}
+                  <div className="bg-gray-800 p-6 rounded-lg">
+                    <div className="flex items-center mb-2">
+                      <FaCloud className="text-blue-400 mr-2" />
+                      <h4 className="font-medium text-white">
+                        Oracle Cloud AI Foundations
+                      </h4>
+                    </div>
+                    <p className="text-gray-300 text-sm mb-2">
+                      Certification IA & Machine Learning - Oracle University
+                    </p>
+                    <p className="text-gray-300 text-sm mb-2">
+                      📍 Intelligence Artificielle & Machine Learning sur OCI
+                    </p>
+                    <p className="text-gray-300 text-sm mb-2">
+                      🎯 Compétences visées : ML, Deep Learning, IA Générative
+                    </p>
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs text-blue-300">
+                        🔥 En certification
+                      </span>
+                      <div className="w-24 bg-gray-700 rounded-full h-2">
+                        <div
+                          className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full"
+                          style={{ width: "55%" }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-4 text-center">
+                  <span className="text-xs text-purple-300 bg-purple-900/30 px-3 py-1 rounded-full">
+                    📅 Objectif certification : Octobre-Novembre 2025
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
 
-          {/* Colonne de droite */}
+          {/* Colonne de droite - RESTE IDENTIQUE */}
           <div className="space-y-12">
             {/* Localisation et âge */}
             <div>
@@ -167,22 +221,22 @@ const AboutSection = () => {
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">•</span>
                     <span className="text-gray-300">
-                      Décrocher un stage de fin d’études (PFE) ou une alternance
-                      afin de mettre en pratique mes compétences.{" "}
+                      Décrocher un stage de fin d'études (PFE) ou une alternance
+                      afin de mettre en pratique mes compétences.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">•</span>
                     <span className="text-gray-300">
                       Contribuer à des projets innovants et collaboratifs (open
-                      source ou en entreprise).{" "}
+                      source ou en entreprise).
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-purple-500 mr-2">•</span>
                     <span className="text-gray-300">
                       Renforcer mon expertise en développement full stack et
-                      acquérir de nouvelles compétences techniques.{" "}
+                      acquérir de nouvelles compétences techniques.
                     </span>
                   </li>
                 </ul>
