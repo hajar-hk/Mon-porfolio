@@ -19,7 +19,7 @@ const HeroSection = () => {
       {/* Photo de profil */}
       <div className="relative mb-8">
         <img
-          src="./images/imageProfil.jpeg"
+          src="./images/imageProfil.jpg"
           alt="Photo de profil"
           className="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover border-4 border-purple-600"
         />
