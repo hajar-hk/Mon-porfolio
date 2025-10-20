@@ -77,11 +77,11 @@ const ContactSection = () => {
     let cvPath, cvName;
 
     if (language === "french" && type === "stage") {
-      cvPath = "/cv/MON-CV.pdf";
-      cvName = "MON-CV.pdf";
+      cvPath = "/cv/Mon-CV.pdf";
+      cvName = "Mon-CV.pdf";
     } else if (language === "english" && type === "stage") {
-      cvPath = "/cv/MY-CV.pdf";
-      cvName = "MY-CV.pdf";
+      cvPath = "/cv/My-CV.pdf";
+      cvName = "My-CV.pdf";
     }
 
     const link = document.createElement("a");
