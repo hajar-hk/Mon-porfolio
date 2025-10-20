@@ -79,10 +79,10 @@ const ContactSection = () => {
 
     if (language === "french" && type === "stage") {
       cvPath = "/cv/MON-CV.pdf";
-      cvName = "CV-Kassmi-Hajar-Francais-Stage.pdf";
+      cvName = "CV-Francais.pdf";
     } else if (language === "english" && type === "stage") {
       cvPath = "/cv/MY-CV.pdf";
-      cvName = "CV-Kassmi-Hajar-English-Stage.pdf";
+      cvName = "CV-English.pdf";
     } else if (language === "french" && type === "job") {
       cvPath = "/cv/CV-Françai.pdf";
       cvName = "CV-Kassmi-Hajar-Francais-Job.pdf";
@@ -195,14 +195,14 @@ const ContactSection = () => {
                     className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center"
                   >
                     <span className="mr-2">🇫🇷</span>
-                    CV Français – Stage PFE
+                    CV Français
                   </button>
                   <button
                     onClick={() => downloadCV("english", "stage")}
                     className="w-full text-left px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors flex items-center border-t border-gray-700"
                   >
                     <span className="mr-2">🇬🇧</span>
-                    CV English – End-of-studies Internship (PFE)
+                    CV English
                   </button>
                 </div>
               )}
