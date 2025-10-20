@@ -79,22 +79,19 @@ const ContactSection = () => {
 
     if (language === "french" && type === "stage") {
       cvPath = "/cv/MON-CV.pdf";
-      cvName = "CV-Francais.pdf";
+      cvName = "MON-CV.pdf";
     } else if (language === "english" && type === "stage") {
       cvPath = "/cv/MY-CV.pdf";
-      cvName = "CV-English.pdf";
-    } else if (language === "french" && type === "job") {
-      cvPath = "/cv/CV-Françai.pdf";
-      cvName = "CV-Kassmi-Hajar-Francais-Job.pdf";
-    } else if (language === "english" && type === "job") {
-      cvPath = "/cv/CV-Anglais.pdf";
-      cvName = "CV-Kassmi-Hajar-English-Job.pdf";
+      cvName = "MY-CV.pdf";
     }
 
     const link = document.createElement("a");
     link.href = cvPath;
     link.download = cvName;
     link.click();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
