@@ -87,7 +87,6 @@ const ContactSection = () => {
     const link = document.createElement("a");
     link.href = cvPath;
     link.download = cvName;
-    link.click();
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
