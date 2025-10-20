@@ -1,5 +1,4 @@
 // src/components/HeroSection.jsx
-import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -20,7 +19,7 @@ const HeroSection = () => {
       <div className="relative mb-8">
         <img
           src="./images/imageProfil.jpg"
-          alt="Photo de profil"
+          alt="hajar kassmi"
           className="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover border-4 border-purple-600"
         />
         {/* Étiquette de disponibilité - position améliorée */}

@@ -1,6 +1,5 @@
 // src/components/ProjectsSection.jsx
-import React from "react";
-import { FaExternalLinkAlt, FaGithub, FaStar } from "react-icons/fa";
+import { FaGithub, FaStar } from "react-icons/fa";
 
 const ProjectsSection = () => {
   return (

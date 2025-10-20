@@ -1,5 +1,4 @@
 // src/components/AboutSection.jsx
-import React from "react";
 import {
   FaUser,
   FaGraduationCap,
@@ -9,12 +8,8 @@ import {
   FaPalette,
   FaCodeBranch,
   FaDocker,
-  FaShieldAlt,
-  FaServer,
   FaMobile,
   FaCloud,
-  FaDatabase,
-  FaCode,
   FaRocket,
 } from "react-icons/fa";
 
