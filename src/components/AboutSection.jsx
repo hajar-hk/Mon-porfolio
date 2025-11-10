@@ -126,26 +126,26 @@ const AboutSection = () => {
                     <div className="flex items-center mb-2">
                       <FaCloud className="text-blue-400 mr-2" />
                       <h4 className="font-medium text-white">
-                        Oracle Cloud AI Foundations
+                        Formation Intelligence Artificielle
                       </h4>
                     </div>
                     <p className="text-gray-300 text-sm mb-2">
-                      Certification IA & Machine Learning - Oracle University
+                      Développement de compétences en IA - Auto-formation
                     </p>
                     <p className="text-gray-300 text-sm mb-2">
-                      📍 Intelligence Artificielle & Machine Learning sur OCI
+                      📍 Machine Learning, Deep Learning & IA Générative
                     </p>
                     <p className="text-gray-300 text-sm mb-2">
-                      🎯 Compétences visées : ML, Deep Learning, IA Générative
+                      🎯 Domaines étudiés : ML, DL, Computer Vision, NLP
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-blue-300">
-                        🔥 En certification
+                        🔥 En cours de formation
                       </span>
                       <div className="w-24 bg-gray-700 rounded-full h-2">
                         <div
                           className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full"
-                          style={{ width: "55%" }}
+                          style={{ width: "65%" }}
                         ></div>
                       </div>
                     </div>
@@ -154,7 +154,7 @@ const AboutSection = () => {
 
                 <div className="mt-4 text-center">
                   <span className="text-xs text-purple-300 bg-purple-900/30 px-3 py-1 rounded-full">
-                    📅 Objectif certification : Octobre-Novembre 2025
+                    📅 Formation continue
                   </span>
                 </div>
               </div>
