@@ -78,7 +78,7 @@ const ContactSection = () => {
 
     if (language === "french" && type === "stage") {
       cvPath = "/cv/MON-CV.pdf";
-      cvName = "Mon-CV.pdf";
+      cvName = "MON-CV.pdf";
     } else if (language === "english" && type === "stage") {
       cvPath = "/cv/My-CV.pdf";
       cvName = "My-CV.pdf";
