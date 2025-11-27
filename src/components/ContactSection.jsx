@@ -80,8 +80,8 @@ const ContactSection = () => {
       cvPath = "/cv/MON-CV.pdf";
       cvName = "MON-CV.pdf";
     } else if (language === "english" && type === "stage") {
-      cvPath = "/cv/My-CV.pdf";
-      cvName = "My-CV.pdf";
+      cvPath = "/cv/MY-CV.pdf";
+      cvName = "MY-CV.pdf";
     }
 
     const link = document.createElement("a");
