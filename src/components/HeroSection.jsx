@@ -33,8 +33,8 @@ const HeroSection = () => {
       </h1>
       {/* Description */}
       <p className="text-base md:text-lg text-gray-300 max-w-2xl mb-8 px-4">
-        Étudiante en 5ème année, passionnée par le développement web moderne et
-        les nouvelles technologies
+        Ingénieure logicielle en devenir, je transforme des besoins complexes en
+        solutions digitales performantes, intuitives et scalables{" "}
       </p>
       {/* Technologies */}
       <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-10 md:mb-12">

@@ -60,29 +60,29 @@ const SkillsSection = () => {
                     icon: <FaReact className="mr-2" />,
                   },
                   {
+                    name: "JavaScript",
+                    percentage: 85,
+                    icon: <SiJavascript className="mr-2" />,
+                  },
+                  {
                     name: "TypeScript",
                     percentage: 60,
                     icon: <SiTypescript className="mr-2" />,
                   },
                   {
-                    name: "JavaScript",
-                    percentage: 90,
-                    icon: <SiJavascript className="mr-2" />,
+                    name: "Angular",
+                    percentage: 50,
+                    icon: <SiTailwindcss className="mr-2" />,
                   },
                   {
                     name: "HTML/CSS",
-                    percentage: 90,
+                    percentage: 85,
                     icon: (
                       <>
                         <SiHtml5 className="mr-2" />
                         <SiCss3 className="mr-2" />
                       </>
                     ),
-                  },
-                  {
-                    name: "Tailwind CSS",
-                    percentage: 85,
-                    icon: <SiTailwindcss className="mr-2" />,
                   },
                 ].map((skill, index) => (
                   <div key={index}>
@@ -118,7 +118,7 @@ const SkillsSection = () => {
                   },
                   {
                     name: "Oracle",
-                    percentage: 55,
+                    percentage: 50,
                     icon: <SiOracle className="mr-2" />,
                   },
                 ].map((skill, index) => (
@@ -158,7 +158,7 @@ const SkillsSection = () => {
                   },
                   {
                     name: "Python",
-                    percentage: 45,
+                    percentage: 30,
                     icon: <SiPython className="mr-2" />,
                   },
                   {

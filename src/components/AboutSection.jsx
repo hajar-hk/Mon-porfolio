@@ -9,7 +9,7 @@ import {
   FaCodeBranch,
   FaDocker,
   FaMobile,
-  FaCloud,
+  FaBriefcase,
   FaRocket,
 } from "react-icons/fa";
 
@@ -121,31 +121,32 @@ const AboutSection = () => {
                 </h3>
 
                 <div className="space-y-4">
-                  {/* Formation IA */}
+                  {/* Formation Business & Fonctionnel */}
                   <div className="bg-gray-800 p-6 rounded-lg">
                     <div className="flex items-center mb-2">
-                      <FaCloud className="text-blue-400 mr-2" />
+                      {/* Pense à importer FaBriefcase ou FaTasks depuis react-icons/fa */}
+                      <FaBriefcase className="text-blue-400 mr-2" />
                       <h4 className="font-medium text-white">
-                        Formation Intelligence Artificielle
+                        Formation Product Owner & Analyse Métier
                       </h4>
                     </div>
                     <p className="text-gray-300 text-sm mb-2">
-                      Développement de compétences en IA - Auto-formation
+                      Auto-formation Product Owner Junior
                     </p>
                     <p className="text-gray-300 text-sm mb-2">
-                      📍 Machine Learning, Deep Learning & IA Générative
+                      📍 Analyse métier & Processus fonctionnels
                     </p>
                     <p className="text-gray-300 text-sm mb-2">
-                      🎯 Domaines étudiés : ML, DL, Computer Vision, NLP
+                      🎯 Validation des solutions & User Stories
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-blue-300">
-                        🔥 En cours de formation
+                        🔥 Compétence en développement
                       </span>
                       <div className="w-24 bg-gray-700 rounded-full h-2">
                         <div
                           className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full"
-                          style={{ width: "65%" }}
+                          style={{ width: "80%" }}
                         ></div>
                       </div>
                     </div>
